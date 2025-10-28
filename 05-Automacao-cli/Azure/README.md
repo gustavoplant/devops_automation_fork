@@ -139,8 +139,9 @@ az vm create \
   --location $LOCATION
 ```
 **Comando que funcinou:**
-
+```powershell
 az vm create --resource-group $RG --name vm02 --image Ubuntu2204 --admin-username azureuser --admin-password $PWD --authentication-type password --location $LC --size "Standard_B1s"
+```
 
 ### 💻 Criar a segunda VM:
 
