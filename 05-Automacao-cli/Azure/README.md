@@ -446,3 +446,11 @@ Esse comando lê o arquivo `vms-ips.txt` e utiliza o `awk` para formatar de form
 ```bash
 awk '{ print "VM:" $1 " | IP:" $2 }' vms-ips.txt
 ```
+
+## Outros comandos úteis
+
+Listar tamanhos de VM por região filtrando por número de cores e trazendo apenas o nome e qto de cores
+```bash
+az vm list-sizes --location eastus --query "[?numberOfCores == \`1\`].{cores: numberOfCores, name
+: name}" --output json
+```
