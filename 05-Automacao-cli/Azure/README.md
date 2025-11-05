@@ -140,7 +140,7 @@ az vm create \
 ```
 **Comando que funcionou:**
 ```powershell
-az vm create --resource-group "west-us-1" --name "vm-pqp" --image Ubuntu2204 --admin-username gustavo --admin-password '1qaz2@Wsx#3edc' --authentication-type password --location 'westus' --size "Standard_B1s"
+az vm create --resource-group "west-us-1" --name "vm-pqp" --image Ubuntu2204 --admin-username gustavo --admin-password 'SenhaForte123' --authentication-type password --location 'westus' --size "Standard_B1s"
 ```
 
 ### 💻 Criar a segunda VM:
