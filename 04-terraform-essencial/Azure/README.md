@@ -53,6 +53,11 @@ terraform validate
 terraform plan
 ```
 
+## Para formatar o código
+```bash
+terraform fmt
+```
+
 ## 🚀 Passo 5 – Aplicar o código e provisionar
 ```bash
 terraform apply
